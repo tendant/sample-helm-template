@@ -1,68 +1,12 @@
 ---
-# Source: generated-chart/templates/Chart.yaml
-apiVersion: v3
-name: SampleChart
-version: 0.0.1
-
----
-# Source: generated-chart/templates/generated/generated.yaml
 # Source: SampleChart/templates/namespaces.yaml
 apiVersion: v1
 kind: Namespace
 metadata:
   name: demo-app
 ---
-# Source: generated-chart/templates/generated/generated.yaml
-# Source: generated-chart/templates/generated/generated.yaml
 # Source: SampleChart/templates/namespaces.yaml
 apiVersion: v1
 kind: Namespace
 metadata:
   name: demo-database
----
-# Source: generated-chart/templates/generated/generated.yaml
-# Source: generated-chart/templates/templates/namespaces.yaml
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: demo-app
----
-# Source: generated-chart/templates/generated/generated.yaml
-# Source: generated-chart/templates/templates/namespaces.yaml
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: demo-database
----
-# Source: generated-chart/templates/generated/generated.yaml
-# Source: generated-chart/templates/Chart.yaml
-apiVersion: v3
-name: SampleChart
-version: 0.0.1
----
-# Source: generated-chart/templates/generated/generated.yaml
-# Source: generated-chart/templates/generated/generated.yaml
----
-# Source: generated-chart/templates/generated/generated.yaml
-# Source: generated-chart/templates/values.yaml
-namespace:
-  prefix: demo
-
----
-# Source: generated-chart/templates/templates/namespaces.yaml
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: demo-app
----
-# Source: generated-chart/templates/templates/namespaces.yaml
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: demo-database
-
----
-# Source: generated-chart/templates/values.yaml
-namespace:
-  prefix: demo
-
