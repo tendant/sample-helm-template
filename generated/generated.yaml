@@ -1,0 +1,14 @@
+---
+---
+# Source: SampleChart/templates/namespaces.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: demo-app
+---
+# Source: SampleChart/templates/namespaces.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: demo-database
+
